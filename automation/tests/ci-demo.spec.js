@@ -10,7 +10,7 @@ test('FinestLMS homepage should load', async ({
     await page.goto('/');
 
     await expect(page).toHaveTitle(
-        /vite-project/i
+        /wronng one/i
     );
 
 });
